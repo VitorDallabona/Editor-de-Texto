@@ -1,47 +1,46 @@
-# Editor de Texto
+# Text Editor
 
-## Descrição
-Este projeto é um editor de texto simples, desenvolvido para demonstrar conceitos de POO (Programação Orientada a Objetos) e design de software. Ele permite ao usuário criar, editar e salvar arquivos de texto.
+## Description
+This project is a simple text editor developed to demonstrate Object-Oriented Programming (OOP) concepts and software design for the course Object-Oriented Programming (UFSM00274). It allows users to create, edit, and save text files.
 
-## Funcionalidades
-- Criar novos documentos
-- Abrir documentos existentes
-- Editar texto
-- Salvar alterações
-- Interface intuitiva para interação do usuário
+## Features
+- Create new documents
+- Open existing documents
+- Edit text
+- Save changes
+- Intuitive user interface
 
-## Tecnologias Utilizadas
-- Linguagem: Java
-- Bibliotecas: Java Swing para interface gráfica
+## Technologies Used
+- Language: Java
+- Libraries: Java Swing for graphical interface
 
-## Conceitos de POO Utilizados
-Este projeto faz uso dos seguintes conceitos de Programação Orientada a Objetos:
-- **Encapsulamento**: Proteção dos atributos e métodos internos das classes.
-- **Herança**: Reutilização de código através de classes base e subclasses.
-- **Polimorfismo**: Implementação de métodos que podem ser sobrescritos em classes derivadas.
-- **Abstração**: Definição de classes genéricas que representam conceitos do editor de texto.
+## OOP Concepts Used
+This project applies the following Object-Oriented Programming concepts:
+- **Encapsulation**: Protecting class attributes and internal methods.
+- **Inheritance**: Code reuse through base and subclass relationships.
+- **Polymorphism**: Implementation of methods that can be overridden in derived classes.
+- **Abstraction**: Definition of generic classes representing text editor concepts.
 
-## Diagrama UML
-O diagrama UML do projeto pode ser visualizado abaixo:
+## UML Diagram
+The UML diagram of the project can be viewed below:
 
-![Diagrama UML](uml_diagram.svg)
+![UML Diagram](uml_diagram.svg)
 
-Para visualizar o diagrama diretamente, abra o arquivo `uml_diagram.svg` na pasta raiz do projeto.
+To view the diagram directly, open the `uml_diagram.svg` file in the project root folder.
 
-## Como Executar
-1. Clone este repositório:
+## How to Run
+1. Clone this repository:
    ```sh
-   git clone https://github.com/seu-usuario/Editor-de-Texto.git
-   ```
-2. Navegue até o diretório do projeto:
+   git clone https://github.com/your-username/Editor-De-Texto.git
+   
+2. Navigate to the project directory:
    ```sh
-   cd Editor-de-Texto
-   ```
-3. Compile o código Java:
+   cd Editor-De-Texto
+
+3. Compile the Java code:
    ```sh
    javac -d bin src/*.java
-   ```
-4. Execute o programa:
+
+4. Run the program:
    ```sh
-   java -cp bin Main
-   ```
+   java -cp bin EditorTexto
