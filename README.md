@@ -31,11 +31,11 @@ Para visualizar o diagrama diretamente, abra o arquivo `uml_diagram.svg` na past
 ## Como Executar
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/editor-texto.git
+   git clone https://github.com/seu-usuario/Editor-de-Texto.git
    ```
 2. Navegue até o diretório do projeto:
    ```sh
-   cd editor-texto
+   cd Editor-de-Texto
    ```
 3. Compile o código Java:
    ```sh
